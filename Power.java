@@ -9,5 +9,15 @@ class Power extends ConsoleProgram {
     
     // start coding here
     
+    double dblA;
+    double dblB;
+    double dblanswer;
+
+    dblA = readDouble("What is the base? ");
+    dblB = readDouble("What is the power? ");
+
+    dblanswer = Math.pow(dblA, dblB);
+
+    System.out.println("The answer is: " + dblanswer);
   }
 }
